@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.myapplication.databinding.FragmentTeachersBinding
-import com.example.myapplication.ui.schools.TeachersViewModel
+import com.example.myapplication.ui.teachers.TeachersViewModel
 
 
 class TeachersFragment : Fragment() {

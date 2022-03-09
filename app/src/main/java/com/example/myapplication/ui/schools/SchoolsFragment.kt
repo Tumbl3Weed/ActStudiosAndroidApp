@@ -23,14 +23,14 @@ class SchoolsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val notificationsViewModel =
-            ViewModelProvider(this).get(TeachersViewModel::class.java)
+        val schoolViewModel =
+            ViewModelProvider(this).get(SchoolsViewModel::class.java)
 
         _binding = FragmentSchoolsBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         val textView: TextView = binding.textSchools
-        notificationsViewModel.text.observe(viewLifecycleOwner) {
+        schoolViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root
