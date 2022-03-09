@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/actStudios/ActStudiosAndroidApp/app/src/main/res/layout/activity_homescreen.xml" value="0.3484375" />
+        <entry key="..\:/actStudios/ActStudiosAndroidApp/app/src/main/res/layout/activity_homescreen.xml" value="0.22872340425531915" />
+        <entry key="..\:/actStudios/ActStudiosAndroidApp/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="..\:/actStudios/ActStudiosAndroidApp/app/src/main/res/layout/fragment_home.xml" value="0.24791666666666667" />
+        <entry key="..\:/actStudios/ActStudiosAndroidApp/app/src/main/res/layout/fragment_notifications.xml" value="0.24791666666666667" />
+        <entry key="..\:/actStudios/ActStudiosAndroidApp/app/src/main/res/layout/fragment_schools.xml" value="0.24791666666666667" />
+        <entry key="..\:/actStudios/ActStudiosAndroidApp/app/src/main/res/layout/fragment_teachers.xml" value="0.17509727626459143" />
+        <entry key="..\:/actStudios/ActStudiosAndroidApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.24791666666666667" />
       </map>
     </option>
   </component>
