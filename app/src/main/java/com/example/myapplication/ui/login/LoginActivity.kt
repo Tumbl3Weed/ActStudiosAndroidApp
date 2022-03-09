@@ -1,6 +1,7 @@
 package com.example.myapplication.ui.login
 
 import android.app.Activity
+import android.content.Intent
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -15,6 +16,7 @@ import android.widget.Toast
 import com.example.myapplication.databinding.ActivityLoginBinding
 
 import com.example.myapplication.R
+import com.example.myapplication.homescreen
 
 class LoginActivity : AppCompatActivity() {
 
@@ -62,6 +64,9 @@ class LoginActivity : AppCompatActivity() {
             setResult(Activity.RESULT_OK)
 
             //Complete and destroy login activity once successful
+            val intent = Intent(this, homescreen::class.java)
+//            intent.putExtra("key", value)
+            startActivity(intent)
             finish()
         })
 
