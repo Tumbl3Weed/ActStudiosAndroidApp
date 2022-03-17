@@ -15,4 +15,6 @@
     <string name="title_notifications">Notifications</string>
     <string name="schools">Schools</string>
     <string name="teachers">Teachers</string>
+    <string name="parent">parent</string>
+    <string name="student">student</string>
 </resources>

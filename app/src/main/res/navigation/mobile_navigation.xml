@@ -3,30 +3,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
-
-    <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.myapplication.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
-
-    <fragment
-        android:id="@+id/navigation_schools"
-        android:name="com.example.myapplication.ui.schools.SchoolsFragment"
-        android:label="@string/schools"
-        tools:layout="@layout/fragment_schools" />
+    app:startDestination="@id/studentFragment">
 
 
     <fragment
-        android:id="@+id/navigation_teachers"
-        android:name="com.example.myapplication.ui.teachers.TeachersFragment"
-        android:label="@string/teachers"
-        tools:layout="@layout/fragment_teachers" />
-
+        android:id="@+id/studentFragment"
+        android:name="com.example.myapplication.studentFragment"
+        android:label="fragment_student_list"
+        tools:layout="@layout/fragment_student_list" />
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.myapplication.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/teacherFragment"
+        android:name="com.example.myapplication.teacherFragment"
+        android:label="fragment_teacher_list"
+        tools:layout="@layout/fragment_teacher_list" />
+    <fragment
+        android:id="@+id/schoolFragment"
+        android:name="com.example.myapplication.schoolFragment"
+        android:label="fragment_school_list"
+        tools:layout="@layout/fragment_school_list" />
+    <fragment
+        android:id="@+id/parentFragment"
+        android:name="com.example.myapplication.parentFragment"
+        android:label="fragment_parent_list"
+        tools:layout="@layout/fragment_parent_list" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.example.myapplication.notificationFragment"
+        android:label="fragment_notification_list"
+        tools:layout="@layout/fragment_notification_list" />
 </navigation>

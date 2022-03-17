@@ -16,7 +16,7 @@ import android.widget.Toast
 import com.example.myapplication.databinding.ActivityLoginBinding
 
 import com.example.myapplication.R
-import com.example.myapplication.homescreen
+import com.example.myapplication.Homescreen
 
 class LoginActivity : AppCompatActivity() {
 
@@ -64,7 +64,7 @@ class LoginActivity : AppCompatActivity() {
             setResult(Activity.RESULT_OK)
 
             //Complete and destroy login activity once successful
-            val intent = Intent(this, homescreen::class.java)
+            val intent = Intent(this, Homescreen::class.java)
 //            intent.putExtra("key", value)
             startActivity(intent)
             finish()

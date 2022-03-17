@@ -2,22 +2,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
+        android:id="@+id/studentFragment"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
+        android:title="@string/student" />
 
     <item
-        android:id="@+id/navigation_schools"
+        android:id="@+id/parentFragment"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/parent" />
+
+    <item
+        android:id="@+id/schoolFragment"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="@string/schools" />
 
     <item
-        android:id="@+id/navigation_teachers"
+        android:id="@+id/teacherFragment"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="@string/teachers" />
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/notificationFragment"
         android:icon="@drawable/ic_notifications_black_24dp"
         android:title="@string/title_notifications" />
 
